@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title> Traductor de textos </title>
+  <link rel="StyleSheet" href="css/estilo.css" type="text/css" media="screen">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body onload="setInterval('location.reload()',3000)">
+  <center>
+   <header>
+     <h1> TRADUCTOR DE TEXTOS TIEMPO REAL </h1>
+   </header>
+   <nav>
+     <ul>
+       <li><a title="Opcion 1" href="#">INICIO</a></li>
+       <li><a title="Opcion 2" href="#">SABER MÁS</a></li>
+       <li><a title="Opcion 3" href="#">ACCESO</a></li>
+       <li><a title="Opcion 4" href="#">CONTACTO</a></li>
+     </ul>
+   </nav>
+   <div id ="content">
+     <div id ="Text">
+       <div id="Introduccion">
+         <div id="Txt">
+           <p>Este proyecto se basa en un traductor de texto en tiempo real, es decir, mediante la cámara de tu móvil
+           enfocarás hacia un texto en algún idioma (en principio en inglés) y te lo traducirá en tiempo real a español, y viceversa.</p>
+           <p>A diferencia de otras herramientas ya existentes, este traductor te traduce el texto en 100% tiempo real, en cambio, otros en el
+           mercado, requieren de previamente realizar una captura (foto) del texto a traducir, siendo esto menos cómodo y más tedioso.</p>
+           <p>A parte de las funcionalidades indicadas a continuación, podrás decirnos si te gustaría que el proyecto tuviera alguna otra mediante el
+           formulario de la derecha. Pronto habrán nuevas novedades!</p>
+         </div>
+         <div id="img2"><img src="images/First.jpg" width="250" height=290"></p></div>
+       </div>
+     </div>
+     <div id ="form">
+       <h3>Colaborar!</h3>
+         <form action="pagina2.html" method="get">
+           <p><label>Nombre:</label> <input type="text" name="name"></p>
+           <p><label>Email:</label> <input type="text" name="email"></p>
+           <p><b>Funcionalidades extras:</b>
+           <ul>
+             <li>Multidioma<input type="radio" name="TM"></li>
+             <li>Modo Nocturno<input type="radio" name="MN"></li>
+             <li>Textos Favoritos<input type="radio" name="TF"></li>
+             <li>Narración de textos<input type="radio" name="NT"></li>
+           </ul></p>
+           <p><label>Otra:</label> <input type ="text" name="MoreF"></p>
+          <input type="submit" value="Enviar">
+         </form>
+     </div>
+   </div>
+   <footer></footer>
+ </center>
+</body>
+</html>
