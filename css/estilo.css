@@ -100,9 +100,14 @@ nav ul li a:hover {
 #form p label {
 	display:inline-block;
 	width:100px;
+    font-weight: bold;
 }
 #form h3{
   color:orange;
+}
+#form ul li{
+  color:orange;
+  font-weight: bold;
 }
 #Introduccion{
   font-weight: bold;
@@ -121,4 +126,10 @@ nav ul li a:hover {
   width:46%;
   float:left;
   padding-right:20px;
+}
+#Txt2 h3{
+  color:blue;
+}
+#Txt2 li{
+  font-weight: bold;
 }
