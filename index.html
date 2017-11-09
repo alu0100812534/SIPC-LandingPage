@@ -4,8 +4,11 @@
   <title> Traductor de textos </title>
   <link rel="StyleSheet" href="css/estilo.css" type="text/css" media="screen">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Traductor de textos mediante el uso de la cámara del móvil en tiempo real">
+  <meta name="keywords" content="Movil,traductor,tiempo-real,idiomas,español-ingles,ingles-español,Android,IOS">
+  <script type="text/javascript" src="js/form.js"></script>
 </head>
-<body onload="setInterval('location.reload()',3000)">
+<body>
   <center>
    <header>
      <h1> TRADUCTOR EN TIEMPO REAL </h1>
@@ -49,7 +52,7 @@
      </div>
      <div id ="form">
        <h3>Colaborar!</h3>
-         <form action="pagina2.html" method="get">
+         <form action="pagina2.html" method="get" onsubmit="return validate();" name="formCheck">
            <p><label>Nombre:</label> <input type="text" name="name"></p>
            <p><label>Email:</label> <input type="text" name="email"></p>
            <p><b>Funcionalidades extras:</b>
