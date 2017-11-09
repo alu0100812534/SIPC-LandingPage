@@ -72,7 +72,6 @@ nav ul li a:hover {
   width:65%;
 }
 #Text{
-  border-right: 1px solid grey;
   float:left;
   width:70%;
   height:550px;
@@ -83,7 +82,12 @@ nav ul li a:hover {
   float:left;
   padding-left:18px;
   width:25%;
+  height:600px;
   text-align: justify;
+  -webkit-border-radius:10px;/*Para chrome y Safari*/
+  -moz-border-radius:10px;/*Para Firefox*/
+  background-image: -moz-linear-gradient(top center, blue, #CCC);/*Para Firefox*/
+  background-image: linear-gradient(top, blue, blue);/*El estandar por defecto*/
 }
 #form input {
 
@@ -97,7 +101,9 @@ nav ul li a:hover {
 	display:inline-block;
 	width:100px;
 }
-
+#form h3{
+  color:orange;
+}
 #Introduccion{
   font-weight: bold;
   float:left;
@@ -107,6 +113,12 @@ nav ul li a:hover {
   float:left;
   padding-right:20px;
 }
-#class{
+#Especificaciones{
   float:left;
+  width:98%;
+}
+#img3{
+  width:46%;
+  float:left;
+  padding-right:20px;
 }
